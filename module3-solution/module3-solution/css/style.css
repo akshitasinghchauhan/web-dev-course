@@ -1,0 +1,53 @@
+body {
+  padding-top: 20px;
+}
+
+/* Page heading */
+h1 {
+  margin-bottom: 30px;
+}
+
+/* Mobile dropdown menu: full width, distinct background */
+.navbar-collapse.visible-xs {
+  background-color: #333;
+}
+
+.navbar-collapse.visible-xs .nav > li > a {
+  color: #fff;
+}
+
+.navbar-collapse.visible-xs .nav > li > a:hover,
+.navbar-collapse.visible-xs .nav > li > a:focus {
+  background-color: #555;
+  color: #fff;
+}
+
+/* Required graded section: tall, full width, distinct background */
+.required-section {
+  background-color: #f0ad4e;
+  min-height: 1000px;
+  padding: 30px 15px;
+}
+
+/* Optional 3-section layout */
+.optional-wrapper {
+  margin-top: 20px;
+}
+
+.menu-section {
+  min-height: 700px;
+  padding: 30px 15px;
+  margin-bottom: 15px;
+}
+
+.section-chicken {
+  background-color: #d9edf7;
+}
+
+.section-beef {
+  background-color: #f2dede;
+}
+
+.section-sushi {
+  background-color: #dff0d8;
+}
